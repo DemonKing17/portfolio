@@ -1,0 +1,67 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.header-content h1 {
+  font-size: 4rem;
+  font-family: "Saira", sans-serif;
+}
+.header-content p {
+  font-size: 1.2rem;
+  line-height: 1.9;
+  color: #70667f;
+}
+.header-name {
+  margin-top: 10px;
+  font-size: 3rem;
+  color: #e0880e;
+}
+.image-content {
+  position: relative;
+}
+.image-content img {
+  width: 100%;
+  height: 100%;
+  border-bottom: 10px solid #fcd212;
+  border-left: 10px solid #003087;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.circle-1 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  bottom: 0;
+  margin: 10px;
+  box-shadow: 3px 4px 30px rgba(0, 0, 0, 0.1);
+  border-bottom: 10px solid #e08804;
+  border-radius: 16px;
+}
+.circle-2 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  box-shadow: 3px 4px 30px rgba(0, 0, 0, 0.1);
+  border-bottom: 10px solid #43516a;
+  border-radius: 16px;
+}
+@media (min-width: 728px) {
+  .header-container {
+    flex-direction: row;
+  }
+  .header-content {
+    width: 85%;
+    margin-right: 30px;
+  }
+}

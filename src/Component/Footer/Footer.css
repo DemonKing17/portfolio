@@ -1,0 +1,24 @@
+footer {
+  background-color: #111e38;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.footer-logo img {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer ul li {
+  list-style: none;
+  margin: 10px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #fce212;
+}

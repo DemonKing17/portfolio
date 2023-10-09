@@ -1,0 +1,55 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 10px;
+  line-height: 1.9rem;
+  padding: 10px;
+  color: #70667f;
+}
+.about {
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgb(0, 0, 0, 0.3);
+  transform: all 0.3s ease-in-out;
+}
+.myself {
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgb(0, 0, 0, 0.3);
+  margin-top: 10px;
+  transform: all 0.3s ease-in-out;
+}
+.studies {
+  padding: 10px;
+  border: 2px solid rgb(0, 0, 0, 0.1);
+  border-bottom: 5px solid #e08804;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgb(0, 0, 0, 0.3);
+  margin-top: 10px;
+}
+h3 {
+  color: #333333;
+}
+.studies:hover,
+.about:hover {
+  background-color: #fcb212;
+  color: #fff;
+  padding: 5px;
+}
+@media (min-width: 728px) {
+  .details {
+    display: flex;
+    flex-direction: row;
+  }
+  .about {
+    width: 50%;
+    padding: 20px;
+  }
+  .myself {
+    margin-top: 0;
+    width: 50%;
+  }
+}
