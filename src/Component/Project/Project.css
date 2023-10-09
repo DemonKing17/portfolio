@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  text-align: center;
+  margin: 2rem;
+}
+.content {
+  width: 22rem;
+  text-decoration: none;
+  text-align: justify;
+  color: #70667f;
+  line-height: 1.4rem;
+  padding: 1rem;
+  box-shadow: 5px 5px 10px #888888;
+  border-radius: 20px;
+  transform: all 0.3s ease-in-out;
+}
+.para-content h4 {
+  font-size: 1.6rem;
+  text-align: center;
+  color: rgb(25, 24, 24);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.content:hover {
+  background-color: bisque;
+
+  padding: 3px;
+}
+.content .img-content img {
+  width: 20rem;
+  height: 12.5rem;
+}
